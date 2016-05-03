@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <title>tdd-boilerplate mocha browser-suite</title>
     <link rel="stylesheet" href="../../vendor/mocha/mocha.css" />
+	<script>
+	  if (location.href.indexOf('://localhost:7357') != -1) {
+		// testem goes between test runner setup and the tests
+		document.write('<script src="/testem.js">' + '<\/' + 'script>');
+	  }
+	</script>
+
   </head>
   <body>
     <div id="mocha"></div>
