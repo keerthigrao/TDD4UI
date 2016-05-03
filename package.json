@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/keerthigrao/TDD4UI/issues"
   },
-  "homepage": "https://github.com/keerthigrao/TDD4UI#readme"
+  "homepage": "https://github.com/keerthigrao/TDD4UI#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "pug": "^2.0.0-alpha6"
+  }
 }
